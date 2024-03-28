@@ -9,6 +9,7 @@ It supports the following features.
 
 ## App Overview
 The blog app functions as a microservices architecture with six independent services: Client, Posts, Comments, Moderation, Query, and Event Bus. Deployed within a Kubernetes cluster, an ingress controller manages the load balancing of external traffic to each service. As per the microservices design, these services do not communicate directly. Instead, they collaborate through the emission of events triggered whenever a service completes a task.
+[!test image]{images/app.jpeg}
 ### Application strategy
 #### Client service
 #### Comment Service
